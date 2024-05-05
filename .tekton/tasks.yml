@@ -40,7 +40,7 @@ kind: Task
 metadata:
   name: nose
 spec:
-  description: This task will clean up a workspace by deleting all the files.
+  description: This task will run test on the  workspace.
   workspaces:
     - name: source
   params:
